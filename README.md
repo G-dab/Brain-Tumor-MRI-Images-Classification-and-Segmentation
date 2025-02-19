@@ -2,6 +2,8 @@
 
 Imperial College Winter School Honor Group Project, 2025.
 
+We adopted a **VGG16 model** for brain tumor classification task and a **U-Net3D model** for brain tumor segmentation task.
+Finally achieve a Dice score of 0.8194 and a 95 Hausdorff Distance of 3 on our test set.
 ## 1 Introduction
 
 Non-invasive imaging techniques, particularly Magnetic Resonance Imaging (MRI), play a pivotal role in diagnosing brain tumors by providing detailed anatomical and functional insights. In the classification task, we employed the VGG16 neural network architecture and achieved an accuracy of 96% on the test set. For the segmentation task, we referred to the U-Net architecture, designed our own loss function, and incorporated extensive data augmentation techniques. Ultimately, we developed a U-Net3D network architecture that directly processes 3D files. The Dice coefficient reached 83.0% on the training set and 83.2% on the test set.
