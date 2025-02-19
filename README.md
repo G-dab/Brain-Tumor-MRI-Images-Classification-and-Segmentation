@@ -19,13 +19,11 @@ Use keras.utils.Sequence to implement a custom data generator (DataGenerator) fo
 
 Using VGG16 shown in Figure 1 as a feature extractor by loading ImageNet pre-trained weights, removing the original fully connected layers while retaining only the convolutional part. The last 12 convolutional layers are unfrozen, allowing the model to adapt to a new classification task while reducing computational cost.
 
-<center>
-<img src=.github/pic1.png width=60%>
+<center><img src=.github/pic1.png width=60%>
 <br>
 <div style="font-size: 16px; color: #333;">
     Figure 1: VGG16 network architecture.
-</div>
-</center>
+</div></center>
 
 #### 2.1.3 Training Process and Early Stopping Strategy
 
